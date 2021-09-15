@@ -1,16 +1,17 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+
 }
 
 nav{
     width: 100%;
     text-align: right;
-    background-color: darkslategrey;
-    border-bottom: 15px solid darkgoldenrod;
+    border-bottom: 10px solid darkgoldenrod;
 }
 
-li{
+nav li{
     line-height: 60px;
     font-size: 150%;
     display: inline;
@@ -26,13 +27,43 @@ a:visited{
 
 a:hover{
     background-color: darkgoldenrod;
+    padding: 5px;
+    border-radius: 10%;
 }
 
 main{
     text-align: center;
-    border-top: 20px darkgoldenrod;
+    line-height: 50px;
 }
+
+section{
+    padding: 20px;
+    border-top: 5px solid darkgoldenrod;
+    background-color: goldenrod;
+}
+
+form{
+    /* display: inline; */
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+}
+
+form ul{
+    list-style: none;
+    display: inline;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid grey;
+
+}
+
 
 .green_back{
     background-color: darkslategrey;
+    color: white;
 }

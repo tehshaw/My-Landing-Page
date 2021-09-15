@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="green_back">
             <ul>
                 <li><a href="https://github.com/tehshaw" target="_blank">Github</a></li>
                 <li><a href="">Portfolio</a></li>
@@ -28,14 +28,27 @@
 
         <section>
             <h2>Contact Me</h2>
-            
 
+            <form name="mailingList">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" form="mailingList" id="name" name="name" size="40">
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="text" form="mailingList" id="email" name="email" size="40">
+                    </li>
+                </ul>
+                     <button form="mailingList">Submit</button>
+            </form>
             
         </section>
     </main>
 
-    <footer>
-
+    <footer class="green_back">
+        
+        <p>&copy; 2021 My New Website Productions</p>
 
     </footer>
 
