@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    width: 100%;
+    text-align: right;
+    background-color: darkslategrey;
+    border-bottom: 15px solid darkgoldenrod;
+}
+
+li{
+    line-height: 60px;
+    font-size: 150%;
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+}
+
+a:link,
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: darkgoldenrod;
+}
+
+main{
+    text-align: center;
+    border-top: 20px darkgoldenrod;
+}
+
+.green_back{
+    background-color: darkslategrey;
+}
